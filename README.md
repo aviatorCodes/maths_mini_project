@@ -1,4 +1,4 @@
-# 🧮 Matrix-Based Image Processing
+# Matrix-Based Image Processing
 
 Welcome to the **Matrix-Based Image Processing** project! This is an interactive web application built with Python and Streamlit. It demonstrates how standard image filters (like blur, sharpen, and edge detection) are actually just linear algebra concepts and matrix math operating under the hood.
 
@@ -6,7 +6,7 @@ Whether you are a beginner learning about arrays or a computer vision enthusiast
 
 ---
 
-## 🌟 What Does This Project Do?
+## What Does This Project Do?
 
 In digital computing, an image is simply a grid of numbers (a matrix), where each number represents a pixel's color or brightness. 
 
@@ -19,7 +19,7 @@ This application allows you to:
 
 ---
 
-## 🧠 The Concepts: How It Works (For Beginners)
+## The Concepts: How It Works (For Beginners)
 
 ### 1. What is a Kernel?
 A kernel (or filter) is a tiny matrix—usually 3x3, 5x5, or larger. Think of it as a small "window" or "magnifying glass" that slides across the original image. Different arrangements of numbers inside this tiny matrix produce different visual effects.
@@ -35,7 +35,7 @@ When the kernel slides to the very edge of an image, it "hangs off" the side. To
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Here is a quick tour of the codebase:
 
@@ -60,7 +60,7 @@ img_processing/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to run the project on your local machine.
 
@@ -97,7 +97,7 @@ A browser window should automatically open pointing to `http://localhost:8501`.
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 * **[Python](https://www.python.org/)** - The main programming language.
 * **[NumPy](https://numpy.org/)** - For high-performance, vectorized matrix mathematics.
