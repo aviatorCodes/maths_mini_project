@@ -3,3 +3,4 @@ Pillow
 matplotlib
 streamlit
 pytest
+plotly
